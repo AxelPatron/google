@@ -1,0 +1,121 @@
+#upright{
+    display:flex;
+    float: right;
+    width:260px;
+    justify-content: space-between;
+    }
+body {position: relative;
+    font-family: Arial;
+}
+
+footer {position: absolute; bottom: 0;
+}
+.bloc-principal{
+    min-height: calc(100vh - 50px)
+}
+.google{
+        width: 272px;
+        height: 92px;
+        margin: auto;
+        margin-bottom:10px;
+        padding:50px;
+        padding-top: 189px;
+        padding-bottom: 10px;
+    
+    display: block;
+    text-align:-webkit-center;
+    }
+    
+.connexion{
+    background-color: #1E90FF;
+    width: 90px;
+    height: 30px;
+    text-align:-webkit-center;
+    border-radius: 3px;
+    color: white;
+    vertical-align:middle;
+    line-height: 30px;
+    margin-top: 10px;
+    }
+
+.rech{
+    text-align:-webkit-center;
+    margin:auto;
+    }
+
+#recherche{
+    width: 600px;
+    height: 35px;
+    text-align: center;
+    border-radius: 15px;
+    border: solid;
+    border-color: grey;
+    border-width: 1px;
+    font-size: 25px;
+    }
+
+.carre{
+    margin-top: 14px;
+    }
+
+.boutton{
+    margin:auto;
+    margin-top:20px;
+    text-align: center;
+    }
+.button{
+    height: 50px;
+    width:200px;
+    border-radius: 5px;
+    border: solid;
+    font-size: 18px;
+    border-color: grey;
+    border-width: 1px;
+}
+
+#basgauche{
+    display: flex;
+    float: left;
+    flex-direction: row;
+    width: 30%;
+    position: absolute;
+    text-decoration: underline;
+    margin-left: 5px;
+    }
+.pub{
+    margin:10px;
+}
+
+.entr{
+    margin:10px;
+}
+
+.comm{
+    margin:10px;
+}
+.prop{
+    margin:10px;
+}
+#basdroite{
+    display: flex;
+    float: right;
+    flex-direction: row;
+    text-decoration: underline;
+    margin-right: 5px;
+    }
+.judi{
+    margin: 10px;
+}
+.info{
+    margin: 10px;
+}
+.conf{
+    margin: 10px;
+}
+.cond{
+    margin: 10px;
+}
+.para{
+    margin: 10px;
+}
+
